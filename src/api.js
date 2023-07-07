@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from 'data'
 
 const SearchImages = async (term) =>{
     const response = await axios.get('https://api.unsplash.com/search/photos',{
